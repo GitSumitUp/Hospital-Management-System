@@ -43,11 +43,11 @@ This project is a web-based Hospital Management System aimed at improving the ef
    MONGODB_URI=your_mongodb_connection_string
 
 6. **Start the application:**
-   * Backend: *
+   -**Backend:**
      cd Backend
      npm start
 
-  * Frontend: *
+  -**Frontend:**
      cd ../Frontend
      npm start
 
