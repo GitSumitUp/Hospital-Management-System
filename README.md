@@ -1,64 +1,59 @@
 # Hospital Management System
 
-## Overview
-
-This project is a web-based Hospital Management System aimed at improving the efficiency of hospital operations by managing patient information, staff details, appointments, and medical records.
+Hospital Management System is a comprehensive web application designed to streamline the management of hospital operations. It provides efficient tools for managing patients, appointments, staff, and resources with secure authentication and robust backend integration.
 
 ## Features
-
-- **Patient Management:** Register and manage patient details, including personal information and medical history.
-- **Staff Management:** Maintain records of hospital staff, including doctors, nurses, and administrative personnel.
-- **Appointment Scheduling:** Facilitate the booking and management of patient appointments with healthcare providers.
-- **Medical Records:** Store and retrieve patient medical records securely.
+- Manage patient records, appointments, and staff details.
+- User-friendly interface for efficient hospital operations.
+- Secure user authentication and role-based access control.
+- Backend powered by Node.js and Express.js.
+- Database integration using MySQL for data persistence.
 
 ## Technologies Used
-
-- **Frontend:**
-  - HTML
-  - CSS
-  - JavaScript
-
-- **Backend:**
-  - Node.js
-  - Express.js
-
-- **Database:**
-  - MongoDB
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Authentication**: JWT
 
 ## Installation
-
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/GitSumitUp/Hospital-Management-System.git
-
-2. **Navigate to the project directory:**
+   ```
+2. Navigate to the project directory:
    ```bash
    cd Hospital-Management-System
-
-4. **Install backend dependencies:**
+   ```
+3. Install dependencies:
    ```bash
-   cd Backend
    npm install
-   
-6. **Set up environment variables:**
+   ```
+4. Set up the database:
+   - Create a MySQL database.
+   - Import the provided SQL schema.
+   - Update database credentials in `config.js`.
+
+5. Start the server:
    ```bash
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
+   npm start
+   ```
 
-8. **Start the application:**
-   ### Backend: ###
-   ```bash
-     cd Backend
-     npm start
+6. Access the application at `http://localhost:8080`.
 
-  ### Frontend: ###
-  ```bash
-     cd ../Frontend
-     npm start
+## Impact
+Hospital Management System simplifies healthcare administration by automating routine tasks, reducing manual errors, and improving operational efficiency.
 
+## Challenges & Learning
+- Designing role-based access control for different user roles enhanced my knowledge of access management.
+- Integrating the database for scalability and handling concurrent operations improved my backend development skills.
 
+## Future Enhancements
+- Add real-time notifications for critical tasks.
+- Develop a dashboard for analytics and reporting.
+- Introduce multi-language support for diverse user bases.
 
+## License
+This project is open-source and available under the [MIT License](LICENSE).
 
-   
-
-
+### Topics
+Hospital Management Patient Records Appointments Staff Management Secure Authentication Database Integration Node.js Express.js MySQL
