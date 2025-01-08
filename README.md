@@ -60,8 +60,7 @@ This project is a web-based Hospital Management System aimed at improving the ef
  Access the application at http://localhost:3000.
  Use the navigation menu to access different modules such as Patient Management, Staff Management, and Appointments.
 
-## Contributing
- Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
+
 
    
 
