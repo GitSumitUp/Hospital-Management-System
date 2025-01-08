@@ -32,22 +32,27 @@ This project is a web-based Hospital Management System aimed at improving the ef
    git clone https://github.com/GitSumitUp/Hospital-Management-System.git
 
 2. **Navigate to the project directory:**
+   ```bash
    cd Hospital-Management-System
 
-3. **Install backend dependencies:**
+4. **Install backend dependencies:**
+   ```bash
    cd Backend
    npm install
    
-5. **Set up environment variables:**
+6. **Set up environment variables:**
+   ```bash
    PORT=3000
    MONGODB_URI=your_mongodb_connection_string
 
-6. **Start the application:**
-   * Backend: *
+8. **Start the application:**
+   ## Backend:##
+   ```bash
      cd Backend
      npm start
 
-  * Frontend:* 
+  ## Frontend:##
+  ```bash
      cd ../Frontend
      npm start
 
