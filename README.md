@@ -30,3 +30,34 @@ This project is a web-based Hospital Management System aimed at improving the ef
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/GitSumitUp/Hospital-Management-System.git
+
+2. **Navigate to the project directory:**
+   cd Hospital-Management-System
+
+3. **Install backend dependencies:**
+   cd Backend
+   npm install
+   
+5. **Set up environment variables:**
+   PORT=3000
+   MONGODB_URI=your_mongodb_connection_string
+
+6. **Start the application:**
+   *Backend:*
+     cd Backend
+     npm start
+
+  *Frontend:*
+     cd ../Frontend
+     npm start
+
+## Usage
+Access the application at http://localhost:3000.
+Use the navigation menu to access different modules such as Patient Management, Staff Management, and Appointments.
+
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
+
+   
+
+
