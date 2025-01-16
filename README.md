@@ -10,9 +10,9 @@ Hospital Management System is a comprehensive web application designed to stream
 - Database integration using MySQL for data persistence.
 
 ## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: React.Js
 - **Backend**: Node.js, Express.js
-- **Database**: MySQL
+- **Database**: MongoDB
 - **Authentication**: JWT
 
 ## Installation
