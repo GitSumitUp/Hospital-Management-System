@@ -7,7 +7,7 @@ Hospital Management System is a comprehensive web application designed to stream
 - User-friendly interface for efficient hospital operations.
 - Secure user authentication and role-based access control.
 - Backend powered by Node.js and Express.js.
-- Database integration using MySQL for data persistence.
+- Database integration using MongoDB for data persistence.
 
 ## Technologies Used
 - **Frontend**: React.Js
@@ -29,9 +29,8 @@ Hospital Management System is a comprehensive web application designed to stream
    npm install
    ```
 4. Set up the database:
-   - Create a MySQL database.
-   - Import the provided SQL schema.
-   - Update database credentials in `config.js`.
+   - Install MongoDB: Install MongoDB on your system according to the official MongoDB documentation.
+   - Connect to MongoDB: Update the `config.js` file to include the connection string for your MongoDB instance.
 
 5. Start the server:
    ```bash
@@ -56,4 +55,4 @@ Hospital Management System simplifies healthcare administration by automating ro
 This project is open-source and available under the [MIT License](LICENSE).
 
 ### Topics
-Hospital Management Patient Records Appointments Staff Management Secure Authentication Database Integration Node.js Express.js MySQL
+Hospital Management Patient Records Appointments Staff Management Secure Authentication, Database Integration, Node.js, Express.js MongoDB
